@@ -1,9 +1,132 @@
-div.product {
-	float:left;
-	width: 29%;
+
+body {
+	font-size: 18px;
 }
+
+div.product {
+    display:inline-block;
+	width: 29%;
+	text-align: center;
+}
+.navig img {
+	width: 100px;
+	height: 100px;
+	float: left;
+}
+ul.navig{
+	text-align: center;
+}
+.navig li{
+	list-style-type: none;
+	display:inline-block;
+	margin-right: 25px;
+}
+header {
+	position: relative;
+    z-index: 5;
+    margin-bottom: 5%;
+    min-height: 15px;
+    padding: 15px;
+    background-color: #EEE8AA;
+    background-position: 10px 0, 10px 0, 0 0, 0 0;
+    background-size: 15px 15px;
+    box-shadow: 0 0 5px 0 #B8860B;
+}
+
 footer {
 	clear: both;
-	height: 150px;
-	padding: 50px 0px 0px 0px;
+	min-height: 50px;
+	margin-top: 5%;
+    padding: 20px;
+    font-size: 14px;
+    color: black;
+    background-color: #EEE8AA;
+    background-position: 0 0, 0 0, 0 100%, 0 100%;
+    background-size: 10px 12px;
+    box-shadow: 0 0 5px 0  #B8860B;
 }
+   A { 
+    text-decoration: none; 
+    font-size: 24px; 
+    font-weight: bold;
+    color: white;
+   } 
+    A.navig { 
+    text-decoration: none; 
+    font-size: 24px; 
+    font-weight: bold;
+    color: black;
+   } 
+  
+button {
+	background: #f1c40f;
+	background: linear-gradient(to top,  #DAA520 0%, #F0E68C 36%, #EEE8AA 100%);
+	font-size: 16px;
+	padding: 10px 20px;
+	color: #8B4513;
+	border: 1px solid #CD853F;
+	border-radius: 10px;
+}
+.portfolio ul,
+.portfolio li {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-align: center;
+}
+.portfolio li {
+	display:inline-block;
+	width: 300px;
+	height: 200px;
+	position: relative;
+	margin-bottom: 80px;
+}
+.portfolio img {
+	max-width: 100%;
+}
+.descr {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,.6);
+	color: white;
+	padding-top: 80px;
+	text-align: center;
+	opacity: 0;
+	-webkit-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;
+}
+.portfolio li:hover .descr {
+	opacity: 1;
+	}
+
+
+	div.main-product{
+	float: left;
+	}
+	
+	div.wrapper-about{
+	text-align: center;
+	}
+	div.cart{
+		display: table;
+		 margin: 0 auto; 
+		 text-align: center
+	}
+	table{
+	border: 3px groove #eee6a3; 
+    border-collapse: collapse; 
+    text-align: center; 
+	}
+	td, th {
+    border: 2px groove #e1d188;
+    width: 160px;
+   }
+   input, textarea {
+   	 border-radius: 5px;
+   	 border: 1px solid #ccc;
+   }
+  
