@@ -1,3 +1,21 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    min-height: 100%;
+    margin-bottom: -150px;
+}
+/*хак для старых ие*/
+* html .wrapper {
+    height: 100%;
+}
+
+.buffer {
+    height: 80px;
+}
 
 body {
 	font-size: 18px;
